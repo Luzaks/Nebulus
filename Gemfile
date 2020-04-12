@@ -17,6 +17,12 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
+
+# gems for Bootstrap
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+gem 'bootstrap', '~> 4.0.0.beta'
+gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -25,14 +31,13 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
-# Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.4.2', require: false
-gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
-gem 'bootstrap', '~> 4.0.0.beta'
-gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
+# For media upload
 gem 'paperclip', '~> 6.0'
 gem 'paperclip-av-transcoder'
 gem 'aws-sdk-s3', '~> 1.9'
+
+# Reduces boot times through caching; required in config/boot.rb
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
