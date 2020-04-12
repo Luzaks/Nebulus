@@ -20,7 +20,7 @@ gem 'jbuilder', '~> 2.7'
 
 # gems for Bootstrap
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
-gem 'bootstrap', '~> 4.0.0.beta'
+gem 'bootstrap', '~> 4.3.1'
 gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
 
 # Use Redis adapter to run Action Cable in production
